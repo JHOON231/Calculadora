@@ -2,20 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Tabla del 3</title>
+  <title>Tabla de multiplicar</title>
   <link rel="stylesheet" href="multiplicar.css">
 </head>
-
+    
 <body>
-
-  <div  id="contenedor" class="container">
+    
+  <div class="container" id="contenedor">
     <p class="footer">Creado por: Jhon Quintero</p>
+    <input type="number" id="txtNumero" placeholder="Escribe un número">
+    <p></p>
+    <button onclick="generarTablas();" class="btn">PROBAR</button>
+    
 
-    <button class="btn" onclick="generarTablas();">PROBAR</button>
+    <h1>Tablas de multiplicar</h1>
 
-    <h1>Tabla del 3</h1>
-
-    <div class="tabla" id="contenedor">
+    <div class="tabla">
 
       <div class="fila"></div>
       <div class="fila"></div>
@@ -31,6 +33,6 @@
     </div>
 
   </div>
-<script src="multiplicar.js"></script>
+  <script src="multiplicar.js"></script>
 </body>
 </html>
